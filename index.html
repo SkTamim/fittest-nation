@@ -25,7 +25,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-main">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo-2.png" alt="Logo">
@@ -47,411 +47,123 @@
             </div>
         </nav>
 
-        <div class="slider_grid pt-md-3">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="swiper hero-swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="images/gym-1.jpg" alt="Hero Banner" class="hero-banner" style="width:100%;">
-
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="images/gym-2.jpg" alt="Hero Banner" class="hero-banner" style="width:100%;">
-
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="images/gym-3.jpg" alt="Hero Banner" class="hero-banner" style="width:100%;">
-
-                                </div>
-                            </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-pagination"></div>
-                        </div>
+        <div class="hero-slider-area">
+            <div class="swiper hero-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/gym-1.jpg" alt="Hero Banner" class="hero-banner" style="width:100%;">
 
                     </div>
+                    <div class="swiper-slide">
+                        <img src="images/gym-2.jpg" alt="Hero Banner" class="hero-banner" style="width:100%;">
 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gym-3.jpg" alt="Hero Banner" class="hero-banner" style="width:100%;">
+
+                    </div>
                 </div>
-
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
 
     </header>
 
-    <section class="category-banners-section mt-5 container-xxl">
+    <section class="category-banners-section my-5 container">
         <h3 class="mb-3 main-heading fw-bold">Categories</h3>
-        <div class="swiper category-banners-swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="category-card">
-                        <img src="images/Gym.png" alt=" Image">
-                        <h5 class="name my-2 mt-3 text-center">
-                            Gym
-                        </h5>
-                        <div class="mt-1 text-center w-100">
-                            <a href="#" class="add-to-cart-btn d-block text-white">View</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="category-card">
-                        <img src="images/Healthy_meal.png" alt=" Image">
-                        <h5 class="name my-2 mt-3 text-center">
-                            Healthy Meals
-                        </h5>
-                        <div class="mt-1 text-center w-100">
-                            <a href="#" class="add-to-cart-btn d-block text-white">View</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="category-card">
-                        <img src="images/Personal_trainer.png" alt=" Image">
-                        <h5 class="name my-2 mt-3 text-center">
-                            Personal Trainer
-                        </h5>
-                        <div class="mt-1 text-center w-100">
-                            <a href="#" class="add-to-cart-btn d-block text-white">View</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="category-card">
-                        <img src="images/Supplements.png" alt=" Image">
-                        <h5 class="name my-2 mt-3 text-center">
-                            Supplements
-                        </h5>
-                        <div class="mt-1 text-center w-100">
-                            <a href="#" class="add-to-cart-btn d-block text-white">View</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="category-card">
-                        <img src="images/Equipment.png" alt=" Image">
-                        <h5 class="name my-2 mt-3 text-center">
-                            Equipment and Apparels
-                        </h5>
-                        <div class="mt-1 text-center w-100">
-                            <a href="#" class="add-to-cart-btn d-block text-white">View</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="category-card">
-                        <img src="images/Nutritionist.png" alt=" Image">
-                        <h5 class="name my-2 mt-3 text-center">
-                            Nutritionist
-                        </h5>
-                        <div class="mt-1 text-center w-100">
-                            <a href="#" class="add-to-cart-btn d-block text-white">View</a>
-                        </div>
-                    </div>
-                </div>
+        <div class="category-banners row g-4">
 
+            <div class="col-md-4 col-sm-6">
+                <div class="category-card">
+                    <img src="images/Gym.png" alt=" Image">
+                    <h5 class="name my-2 mt-3 text-center">
+                        Gym
+                    </h5>
+                    <div class="mt-1 text-center w-100">
+                        <a href="category-details.html" class="main-btn d-block">View</a>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
+
+
+            <div class="col-md-4 col-sm-6">
+                <div class="category-card">
+                    <img src="images/Healthy_meal.png" alt=" Image">
+                    <h5 class="name my-2 mt-3 text-center">
+                        Healthy Meals
+                    </h5>
+                    <div class="mt-1 text-center w-100">
+                        <a href="category-details.html" class="main-btn d-block text-white">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="category-card">
+                    <img src="images/Personal_trainer.png" alt=" Image">
+                    <h5 class="name my-2 mt-3 text-center">
+                        Personal Trainer
+                    </h5>
+                    <div class="mt-1 text-center w-100">
+                        <a href="category-details.html" class="main-btn d-block text-white">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="category-card">
+                    <img src="images/Supplements.png" alt=" Image">
+                    <h5 class="name my-2 mt-3 text-center">
+                        Supplements
+                    </h5>
+                    <div class="mt-1 text-center w-100">
+                        <a href="category-details.html" class="main-btn d-block text-white">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="category-card">
+                    <img src="images/Equipment.png" alt=" Image">
+                    <h5 class="name my-2 mt-3 text-center">
+                        Equipment and Apparels
+                    </h5>
+                    <div class="mt-1 text-center w-100">
+                        <a href="category-details.html" class="main-btn d-block text-white">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="category-card">
+                    <img src="images/Nutritionist.png" alt=" Image">
+                    <h5 class="name my-2 mt-3 text-center">
+                        Nutritionist
+                    </h5>
+                    <div class="mt-1 text-center w-100">
+                        <a href="category-details.html" class="main-btn d-block text-white">View</a>
+                    </div>
+                </div>
+            </div>
+
+
 
 
     </section>
 
 
-    <section class="pt-4">
-        <div class="container-fluid container-xxl">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="heading">
-                        <h3 class=" mx-2 main-heading">
-                            Featured Products
-                        </h3>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="row g-3 px-sm-5">
-
-                        <div class="col-6 col-lg-3 col-md-4 d-flex justify-content-center">
-                            <div class="product_card">
-
-                                <span class="discount">
-                                    45%
-                                </span>
-                                <a href="#">
-                                    <div class="img"><img src="images/product-image-placeholder.jpg" alt=""></div>
-                                </a>
-
-                                <div class="info">
-
-                                    <p class="title">
-                                        <a href="#">
-                                            This is Title
-                                        </a>
-                                    </p>
-                                    <p class="price">
-                                        <del class="me-2">45
-                                        </del>
-                                        <span>34
-                                        </span>
-                                    </p>
-
-
-                                    <button class="add_cart add-to-cart-btn">
-                                        <i class="bi bi-bag me-2"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-3 col-md-4 d-flex justify-content-center">
-                            <div class="product_card">
-
-                                <span class="discount">
-                                    45%
-                                </span>
-                                <a href="#">
-                                    <div class="img"><img src="images/product-image-placeholder.jpg" alt=""></div>
-                                </a>
-
-                                <div class="info">
-
-                                    <p class="title">
-                                        <a href="#">
-                                            This is Title
-                                        </a>
-                                    </p>
-                                    <p class="price">
-                                        <del class="me-2">45
-                                        </del>
-                                        <span>34
-                                        </span>
-                                    </p>
-
-
-                                    <button class="add_cart add-to-cart-btn">
-                                        <i class="bi bi-bag me-2"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-3 col-md-4 d-flex justify-content-center">
-                            <div class="product_card">
-
-                                <span class="discount">
-                                    45%
-                                </span>
-                                <a href="#">
-                                    <div class="img"><img src="images/product-image-placeholder.jpg" alt=""></div>
-                                </a>
-
-                                <div class="info">
-
-                                    <p class="title">
-                                        <a href="#">
-                                            This is Title
-                                        </a>
-                                    </p>
-                                    <p class="price">
-                                        <del class="me-2">45
-                                        </del>
-                                        <span>34
-                                        </span>
-                                    </p>
-
-
-                                    <button class="add_cart add-to-cart-btn">
-                                        <i class="bi bi-bag me-2"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-3 col-md-4 d-flex justify-content-center">
-                            <div class="product_card">
-
-                                <span class="discount">
-                                    45%
-                                </span>
-                                <a href="#">
-                                    <div class="img"><img src="images/product-image-placeholder.jpg" alt=""></div>
-                                </a>
-
-                                <div class="info">
-
-                                    <p class="title">
-                                        <a href="#">
-                                            This is Title
-                                        </a>
-                                    </p>
-                                    <p class="price">
-                                        <del class="me-2">45
-                                        </del>
-                                        <span>34
-                                        </span>
-                                    </p>
-
-
-                                    <button class="add_cart add-to-cart-btn">
-                                        <i class="bi bi-bag me-2"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-3 col-md-4 d-flex justify-content-center">
-                            <div class="product_card">
-
-                                <span class="discount">
-                                    45%
-                                </span>
-                                <a href="#">
-                                    <div class="img"><img src="images/product-image-placeholder.jpg" alt=""></div>
-                                </a>
-
-                                <div class="info">
-
-                                    <p class="title">
-                                        <a href="#">
-                                            This is Title
-                                        </a>
-                                    </p>
-                                    <p class="price">
-                                        <del class="me-2">45
-                                        </del>
-                                        <span>34
-                                        </span>
-                                    </p>
-
-
-                                    <button class="add_cart add-to-cart-btn">
-                                        <i class="bi bi-bag me-2"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-3 col-md-4 d-flex justify-content-center">
-                            <div class="product_card">
-
-                                <span class="discount">
-                                    45%
-                                </span>
-                                <a href="#">
-                                    <div class="img"><img src="images/product-image-placeholder.jpg" alt=""></div>
-                                </a>
-
-                                <div class="info">
-
-                                    <p class="title">
-                                        <a href="#">
-                                            This is Title
-                                        </a>
-                                    </p>
-                                    <p class="price">
-                                        <del class="me-2">45
-                                        </del>
-                                        <span>34
-                                        </span>
-                                    </p>
-
-
-                                    <button class="add_cart add-to-cart-btn">
-                                        <i class="bi bi-bag me-2"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-3 col-md-4 d-flex justify-content-center">
-                            <div class="product_card">
-
-                                <span class="discount">
-                                    45%
-                                </span>
-                                <a href="#">
-                                    <div class="img"><img src="images/product-image-placeholder.jpg" alt=""></div>
-                                </a>
-
-                                <div class="info">
-
-                                    <p class="title">
-                                        <a href="#">
-                                            This is Title
-                                        </a>
-                                    </p>
-                                    <p class="price">
-                                        <del class="me-2">45
-                                        </del>
-                                        <span>34
-                                        </span>
-                                    </p>
-
-
-                                    <button class="add_cart add-to-cart-btn">
-                                        <i class="bi bi-bag me-2"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-3 col-md-4 d-flex justify-content-center">
-                            <div class="product_card">
-
-                                <span class="discount">
-                                    45%
-                                </span>
-                                <a href="#">
-                                    <div class="img"><img src="images/product-image-placeholder.jpg" alt=""></div>
-                                </a>
-
-                                <div class="info">
-
-                                    <p class="title">
-                                        <a href="#">
-                                            This is Title
-                                        </a>
-                                    </p>
-                                    <p class="price">
-                                        <del class="me-2">45
-                                        </del>
-                                        <span>34
-                                        </span>
-                                    </p>
-
-
-                                    <button class="add_cart add-to-cart-btn">
-                                        <i class="bi bi-bag me-2"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-
-
-
-
-    <footer class="container-fluid bg-grey py-5" style="background-color:#1a2d58;">
+    <!-- FOOTER -->
+    <footer class="container-fluid footer bg-grey py-5 bg-main">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 px-2">
                     <div class="row">
                         <div class="col-md-6 ">
-                            <div class="logo-part">
-                                <img src="images/logo-2.png" class="w-80 logo-footer">
-                                <p>
+                            <div>
+                                <img src="images/logo-2.png" class="logo-footer">
+                                <p class="text-white mt-2">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ea, perferendis minus magni in eius illo consequuntur! Omnis aspernatur ad adipisci, distinctio assumenda a nobis repellat. Omnis quis expedita harum!
                                 </p>
                             </div>
@@ -509,7 +221,7 @@
                                 </li>
                             </ul>
 
-                            <ul class="payment">
+                            <ul class="socials">
                                 <li><a href="#" class="whatsapp"><i class="bi bi-facebook"></i></a></li>
                                 <li><a href="#" class="whatsapp"><i class="bi bi-twitter"></i></a></li>
                                 <li><a href="#" class="whatsapp"><i class="bi bi-linkedin"></i></a></li>
@@ -527,6 +239,37 @@
         </div>
     </footer>
 
+
+    <!-- CATEGORIES OFFCANVAS START -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="categoriesOffcanves" aria-labelledby="categoriesOffcanvesLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="m-2">
+                <div class="accordion" id="my-accordion">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">Categories</button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#my-accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li><a href="#">Category 1</a></li>
+                                    <li><a href="#">Category 2</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- CATEGORIES OFFCANVAS END -->
 
 
     <!-- CUSTOM JS FILE -->
