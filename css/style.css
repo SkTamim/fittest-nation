@@ -215,6 +215,27 @@ img {
 /* ALL ITEMS SECTION END */
 
 /* ITEM DETAILS PAGE START */
+.tab-container {
+	justify-content: space-around;
+}
+.tab-dropdown {
+	width: 100%;
+	box-shadow: none !important;
+	background-color: rgba(26, 45, 88, 0.043);
+	text-align: start;
+	font-weight: 500;
+	position: relative;
+	color: var(--color-secondary);
+}
+.tab-dropdown::after {
+	display: none;
+}
+.down-icon {
+	position: absolute;
+	right: 20px;
+	top: 54%;
+	transform: translateY(-50%);
+}
 .nav-link {
 	color: var(--color-primary);
 	font-weight: 500;

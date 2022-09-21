@@ -24,6 +24,25 @@ try {
 	console.log(error);
 }
 
+try {
+	// TAB ITEM FUNCTIONALITY
+	const tabDropdown = document.querySelector(".tab-dropdown span");
+	let activeTab = document.querySelector(".tab-container .nav-link.active");
+	const allTabs = document.querySelectorAll(".tab-container .nav-item");
+
+	tabDropdown.innerText = activeTab.innerText;
+
+	allTabs.forEach((item) => {
+		item.addEventListener("click", () => {
+			activeTab = item;
+
+			tabDropdown.innerText = activeTab.innerText;
+		});
+	});
+} catch (error) {
+	console.log(error);
+}
+
 //PRICE SLIDER
 try {
 	// Requires jQuery
