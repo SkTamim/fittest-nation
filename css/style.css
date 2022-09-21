@@ -260,6 +260,22 @@ img {
 	width: 100%;
 	height: 200px;
 }
+
+.membership-item {
+	margin: 10px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 8px;
+	background-color: rgba(36, 60, 117, 0.025);
+}
+.membership-price {
+	color: var(--color-secondary);
+	font-weight: bold;
+}
+.start-date {
+	box-shadow: none !important;
+}
+
 /* ITEM DETAILS PAGE END */
 
 /* FOOTER */
@@ -290,7 +306,6 @@ img {
 }
 
 /* UTILITIES */
-
 .bg-main {
 	background-color: var(--color-primary);
 }
@@ -311,7 +326,7 @@ img {
 	text-decoration: none;
 	border: none;
 	box-shadow: none !important;
-	background-color: #1a2d58;
+	background-color: var(--color-primary);
 	color: #fff;
 	padding: 8px 10px;
 	border-radius: 3px;
@@ -320,6 +335,21 @@ img {
 	background-color: #243c75;
 	color: #fff;
 }
+
+.second-btn {
+	text-decoration: none;
+	border: none;
+	box-shadow: none !important;
+	background-color: var(--color-secondary);
+	color: #fff;
+	padding: 8px 10px;
+	border-radius: 3px;
+}
+.second-btn:hover {
+	background-color: #fa8d4e;
+	color: #fff;
+}
+
 .btn-link {
 	color: var(--color-secondary);
 	font-weight: 500;
