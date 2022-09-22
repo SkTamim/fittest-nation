@@ -260,7 +260,209 @@
             <!-- TAB ONE END -->
 
             <!-- TAB TWO START -->
-            <div class="tab-pane fade" id="pills-classes" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+            <div class="tab-pane fade border-top mt-2 py-3" id="pills-classes" role="tabpanel" aria-labelledby="pills-classes-tab">
+                <div>
+                    <input type="date" name="classDate" id="classDate" class="class-date form-control">
+                </div>
+
+                <ul class="nav nav-pills my-3 justify-content-around flex-nowrap" id="classes-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-morning-tab" data-bs-toggle="pill" data-bs-target="#pills-morning" type="button" role="tab" aria-controls="pills-morning" aria-selected="true">Morning</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-afternoon-tab" data-bs-toggle="pill" data-bs-target="#pills-afternoon" type="button" role="tab" aria-controls="pills-afternoon" aria-selected="false">Afternoon</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-evening-tab" data-bs-toggle="pill" data-bs-target="#pills-evening" type="button" role="tab" aria-controls="pills-evening" aria-selected="false">Evening</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="pills-tabContent-classes">
+                    <!-- MORNING TAB -->
+                    <div class="tab-pane fade show active" id="pills-morning" role="tabpanel" aria-labelledby="pills-morning-tab">
+                        <div class="membership-item">
+                            <div class="d-flex justify-content-between border-bottom py-2 mb-2">
+                                <h5 class="m-0">Crossfit</h5>
+                                <div>
+                                    <div class="membership-price">KD 100.000</div>
+                                    <p class="text-muted m-0">was KD 100.000</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Duration</h6>
+                                <p class=" text-muted">20 Minutes</p>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Time</h6>
+                                <p class=" text-muted">15:00 - 15:20</p>
+                            </div>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        </div>
+
+                        <div class="membership-item">
+                            <div class="d-flex justify-content-between border-bottom py-2 mb-2">
+                                <h5 class="m-0">Crossfit</h5>
+                                <div>
+                                    <div class="membership-price">KD 100.000</div>
+                                    <p class="text-muted m-0">was KD 100.000</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Duration</h6>
+                                <p class=" text-muted">20 Minutes</p>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Time</h6>
+                                <p class=" text-muted">16:00 - 16:20</p>
+                            </div>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        </div>
+
+                        <div class="membership-item">
+                            <div class="d-flex justify-content-between border-bottom py-2 mb-2">
+                                <h5 class="m-0">Crossfit</h5>
+                                <div>
+                                    <div class="membership-price">KD 100.000</div>
+                                    <p class="text-muted m-0">was KD 100.000</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Duration</h6>
+                                <p class=" text-muted">20 Minutes</p>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Time</h6>
+                                <p class=" text-muted">17:00 - 17:20</p>
+                            </div>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        </div>
+
+
+                    </div>
+
+                    <!-- AFTERNOON TAB -->
+                    <div class="tab-pane fade" id="pills-afternoon" role="tabpanel" aria-labelledby="pills-afternoon-tab">
+                        <div class="membership-item">
+                            <div class="d-flex justify-content-between border-bottom py-2 mb-2">
+                                <h5 class="m-0">Crossfit</h5>
+                                <div>
+                                    <div class="membership-price">KD 100.000</div>
+                                    <p class="text-muted m-0">was KD 100.000</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Duration</h6>
+                                <p class=" text-muted">20 Minutes</p>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Time</h6>
+                                <p class=" text-muted">15:00 - 15:20</p>
+                            </div>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        </div>
+
+                        <div class="membership-item">
+                            <div class="d-flex justify-content-between border-bottom py-2 mb-2">
+                                <h5 class="m-0">Crossfit</h5>
+                                <div>
+                                    <div class="membership-price">KD 100.000</div>
+                                    <p class="text-muted m-0">was KD 100.000</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Duration</h6>
+                                <p class=" text-muted">20 Minutes</p>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Time</h6>
+                                <p class=" text-muted">16:00 - 16:20</p>
+                            </div>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        </div>
+
+                        <div class="membership-item">
+                            <div class="d-flex justify-content-between border-bottom py-2 mb-2">
+                                <h5 class="m-0">Crossfit</h5>
+                                <div>
+                                    <div class="membership-price">KD 100.000</div>
+                                    <p class="text-muted m-0">was KD 100.000</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Duration</h6>
+                                <p class=" text-muted">20 Minutes</p>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Time</h6>
+                                <p class=" text-muted">17:00 - 17:20</p>
+                            </div>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- EVENING TAB -->
+                    <div class="tab-pane fade" id="pills-evening" role="tabpanel" aria-labelledby="pills-evening-tab">
+                        <div class="membership-item">
+                            <div class="d-flex justify-content-between border-bottom py-2 mb-2">
+                                <h5 class="m-0">Cycling</h5>
+                                <div>
+                                    <div class="membership-price">KD 25.000</div>
+                                    <p class="text-muted m-0">was KD 25.000</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Duration</h6>
+                                <p class=" text-muted">20 Minutes</p>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Time</h6>
+                                <p class=" text-muted">15:00 - 15:20</p>
+                            </div>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        </div>
+
+                        <div class="membership-item">
+                            <div class="d-flex justify-content-between border-bottom py-2 mb-2">
+                                <h5 class="m-0">Cycling</h5>
+                                <div>
+                                    <div class="membership-price">KD 25.000</div>
+                                    <p class="text-muted m-0">was KD 25.000</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Duration</h6>
+                                <p class=" text-muted">20 Minutes</p>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Time</h6>
+                                <p class=" text-muted">16:00 - 16:20</p>
+                            </div>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        </div>
+
+                        <div class="membership-item">
+                            <div class="d-flex justify-content-between border-bottom py-2 mb-2">
+                                <h5 class="m-0">Cycling</h5>
+                                <div>
+                                    <div class="membership-price">KD 25.000</div>
+                                    <p class="text-muted m-0">was KD 25.000</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Duration</h6>
+                                <p class=" text-muted">20 Minutes</p>
+                            </div>
+                            <div>
+                                <h6 class="m-0">Time</h6>
+                                <p class=" text-muted">17:00 - 17:20</p>
+                            </div>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
             <!-- TAB TWO END -->
 
             <!-- TAB THREE START -->
@@ -511,7 +713,37 @@
             </div>
         </div>
     </div>
-    <!-- BUY NOW MODAL END -->
+    <!-- ADD TO CART MODAL END -->
+
+
+    <!-- ADD TO CART FOR CLASSES MODAL START -->
+    <div class="modal fade" id="classAdddModal" tabindex="-1" aria-labelledby="classAdddModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-between border-bottom py-2 mb-2">
+                        <h5 class="m-0">Crossfit</h5>
+                        <div>
+                            <div class="membership-price">KD 100.000</div>
+                            <p class="text-muted m-0">was KD 100.000</p>
+                        </div>
+                    </div>
+
+                    <h6 class="m-0">Duration - 20 Minutes</h6>
+                    <p class=" text-muted">15:00 - 15:20</p>
+
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn second-btn w-100 text-center" data-bs-dismiss="modal">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ADD TO CART FOR CLASSES MODAL END -->
+
 
     <!-- JQUERY CDN -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>

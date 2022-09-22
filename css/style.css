@@ -297,6 +297,21 @@ img {
 	box-shadow: none !important;
 }
 
+.class-date {
+	box-shadow: none !important;
+}
+
+#classes-tab .nav-link {
+	border: 1px solid var(--color-primary);
+	border-radius: 50px !important;
+	color: var(--color-primary);
+	margin: 0 5px;
+}
+#classes-tab .nav-link.active {
+	background-color: var(--color-secondary) !important;
+	color: #fff !important;
+	border-color: var(--color-secondary);
+}
 /* ITEM DETAILS PAGE END */
 
 /* FOOTER */
