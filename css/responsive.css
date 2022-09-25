@@ -36,3 +36,9 @@
 		display: none;
 	}
 }
+
+@media screen and (max-width: 473px) {
+	.trainer-img {
+		display: none;
+	}
+}
