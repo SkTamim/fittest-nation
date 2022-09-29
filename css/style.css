@@ -12,7 +12,9 @@ a {
 img {
 	max-width: 100%;
 }
-.form-select {
+.form-select,
+.form-control,
+.btn {
 	box-shadow: none !important;
 }
 
@@ -89,6 +91,9 @@ img {
 	font-size: 64px;
 	font-weight: bold;
 	letter-spacing: 6px;
+}
+.category-hero-area div {
+	z-index: 2;
 }
 
 /* ALL ITEMS SECTION START */
@@ -285,7 +290,7 @@ img {
 	margin-bottom: 20px;
 	padding: 20px;
 	border-radius: 8px;
-	background-color: rgba(36, 60, 117, 0.076);
+	background-color: rgba(36, 60, 117, 0.02);
 }
 .membership-price {
 	color: var(--color-secondary);
@@ -373,6 +378,73 @@ img {
 }
 /* CART PAGE END */
 
+/* CHECKOUT PAGE START */
+.address-selected {
+	border: 2px solid var(--color-secondary);
+}
+.address-place {
+	background-color: rgba(246, 121, 49, 0.114);
+	color: var(--color-secondary);
+	border: 1px solid var(--color-secondary);
+	border-radius: 4px;
+	padding: 3px 10px;
+	text-transform: uppercase;
+	width: max-content;
+	font-size: 14px;
+}
+.checkout-progress {
+	margin: 0 5px;
+	text-align: center;
+}
+.checkout-progress a {
+	color: #fff;
+	text-align: center;
+	display: block;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	padding: 2px 7px;
+	width: max-content;
+	margin: 0 auto;
+	background-color: rgba(216, 214, 214, 0.342);
+	z-index: 1;
+}
+.checkout-progress p {
+	margin: 0;
+	margin-top: 5px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.checkout-progress.active a {
+	background-color: var(--color-secondary);
+	color: #fff;
+	border-color: var(--color-secondary);
+}
+.checkout-progress.active p {
+	color: var(--color-secondary);
+}
+.progress-line {
+	background-color: rgba(226, 223, 223, 0.514);
+	height: 3px;
+	width: 52px;
+	position: absolute;
+	top: 27%;
+	left: 47px;
+	z-index: -1 !important;
+}
+.progress-line:nth-child(2) {
+	left: 133px;
+}
+
+.newAddress-radio .form-check {
+	margin: 0 5px;
+}
+.order-details-item img {
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+}
+/* CHECKOUT PAGE END */
+
 /* FOOTER */
 .logo-footer {
 	height: 80px;
@@ -454,6 +526,27 @@ img {
 }
 .color-second {
 	color: var(--color-secondary);
+}
+.pay-mode-item {
+	border: 1px solid #777;
+	padding: 10px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #777;
+	cursor: pointer;
+	flex-grow: 1;
+	margin: 0 5px;
+}
+.pay-mode-item.active {
+	border: 1px solid var(--color-secondary);
+	color: var(--color-secondary);
+	background-color: #f6793114;
+}
+.pay-mode-item p {
+	font-weight: bold;
 }
 
 /* PRICE SLIDER */

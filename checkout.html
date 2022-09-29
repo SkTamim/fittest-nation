@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fittest Nation</title>
+
+    <!-- GOOGLE FONT CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--BOOTSTRAP ICON-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- CSS FILE FOR SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- BOOTSTRAP CSS FILE CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CUSTOM STYLES FILES -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-main">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-2.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <div class="category-hero-area container-fluid" style="--bg-image:url(../images/gym-bg.jpg)">
+        <div class="container d-flex justify-content-center align-items-center flex-column">
+            <h1>Checkout</h1>
+
+            <div class="d-flex position-relative">
+                <div class="checkout-progress active">
+                    <a href="checkout.html">01</a>
+                    <p>Address</p>
+                </div>
+                <div class="progress-line"></div>
+                <div class="checkout-progress">
+                    <a href="checkout-2.html">02</a>
+                    <p>Order Summary</p>
+                </div>
+                <div class="progress-line"></div>
+                <div class="checkout-progress">
+                    <a href="checkout-3.html">03</a>
+                    <p>Payment</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN SECTION START -->
+    <div class="container-xxl my-5">
+        <div class="d-flex justify-content-between">
+            <h5>Choose Address</h5>
+            <button class="btn color-second fw-bold" data-bs-toggle="modal" data-bs-target="#addNewAddressModal">+ Add Addresss</button>
+        </div>
+
+        <div class="membership-item address-selected">
+            <div class="d-flex justify-content-between border-bottom pb-1">
+                <div>
+                    <h5 class="m-0 color-second">Vivek Saxena</h5>
+                    <p class="m-0 text-muted">vksaxena07@gmail.com</p>
+                </div>
+                <i class="bi bi-check-circle-fill color-second"></i>
+            </div>
+
+            <div class="mt-2 d-flex justify-content-between align-items-center">
+                <div>
+                    <h6 class="m-0">UAE, Abu Dhabi</h6>
+                    <p class="text-muted m-0">
+                        Office 04, Farwaniya Opp macdonalds, Nr. Jamaiya
+                    </p>
+                </div>
+                <div class="address-place">Home</div>
+            </div>
+        </div>
+
+        <div class="membership-item">
+            <div class="d-flex justify-content-between border-bottom pb-1">
+                <div>
+                    <h5 class="m-0 color-second">Vivek Saxena</h5>
+                    <p class="m-0 text-muted">vksaxena07@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="mt-2 d-flex justify-content-between align-items-center">
+                <div>
+                    <h6 class="m-0">UAE, Abu Dhabi</h6>
+                    <p class="text-muted m-0">
+                        Office 04, Farwaniya Opp macdonalds, Nr. Jamaiya
+                    </p>
+                </div>
+                <div class="address-place">Office</div>
+            </div>
+        </div>
+
+        <div class="membership-item">
+            <div class="d-flex justify-content-between border-bottom pb-1">
+                <div>
+                    <h5 class="m-0 color-second">Vivek Saxena</h5>
+                    <p class="m-0 text-muted">vksaxena07@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="mt-2 d-flex justify-content-between align-items-center">
+                <div>
+                    <h6 class="m-0">UAE, Abu Dhabi</h6>
+                    <p class="text-muted m-0">
+                        Office 04, Farwaniya Opp macdonalds, Nr. Jamaiya
+                    </p>
+                </div>
+                <div class="address-place">Other</div>
+            </div>
+        </div>
+
+
+        <div class="d-flex align-items-center my-3">
+            <input type="checkbox" name="agree" id="agree" class="form-check me-2">
+            <p class="m-0">
+                <label for="agree">I agree to Fittest Nations's,</label>
+                <a href="#">Terms of Service,</a>
+                <a href="#">Privacy Policy</a>
+            </p>
+        </div>
+        <a href="checkout-2.html" class="btn second-btn proceed-btn">Proceed</a>
+
+    </div>
+    <!-- MAIN SECTION END -->
+
+
+
+    <!-- FOOTER -->
+    <footer class="container-fluid footer bg-grey py-5 bg-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 px-2">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <div>
+                                <img src="images/logo-2.png" class="logo-footer">
+                                <p class="text-white mt-2">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ea, perferendis minus magni in eius illo consequuntur! Omnis aspernatur ad adipisci, distinctio assumenda a nobis repellat. Omnis quis expedita harum!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-4 ps-md-5 mt-4">
+                            <h6 class="text-white"> Categories</h6>
+                            <div class="row ">
+                                <div class="col">
+                                    <ul>
+
+                                        <li>
+                                            <a href="#">
+                                                Category 1
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Category 2
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Category 3
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 px-3">
+                    <div class="row">
+                        <div class="col-md-6 mt-4">
+                            <h6 class="text-white"> Quick links</h6>
+                            <ul>
+                                <li> <a href="#"> About Us</a> </li>
+                                <li> <a href="#"> Privacy Policy</a> </li>
+                                <li> <a href="#"> Return Policy</a> </li>
+                                <li> <a href="#">Blogs</a> </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-6 mt-4">
+                            <h6 class="text-white"> Get In Touch</h6>
+                            <ul>
+                                <li class="address d-block">
+                                    <a href="tel:123895346">123895346</a>
+                                </li>
+                                <li class="phone">
+                                    <a href="mailto:contact@greenree.com">contact@gmail.com</a>
+
+                                </li>
+                            </ul>
+
+                            <ul class="socials">
+                                <li><a href="#" class="whatsapp"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#" class="whatsapp"><i class="bi bi-twitter"></i></a></li>
+                                <li><a href="#" class="whatsapp"><i class="bi bi-linkedin"></i></a></li>
+                                <li>
+                                    <a href="https://wa.me/12940907" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+    <!-- ADD NEW ADDRESS MODAL START -->
+    <div class="modal fade" id="addNewAddressModal" tabindex="-1" aria-labelledby="addNewAddressModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div>
+                            <p>Please fill profile details</p>
+
+                            <div class="mb-3">
+                                <label for="fName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="fName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="lName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="civilId" class="form-label">Civil ID</label>
+                                <input type="text" class="form-control" id="civilId">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Gender</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select</option>
+                                    <option value="female">Female</option>
+                                    <option value="mail">Male</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Mobile Number</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+
+                        </div>
+
+                        <div class="mt-4">
+                            <p>Please fill address details</p>
+
+                            <div class="mb-3">
+                                <label class="form-label">City</label>
+                                <select class="form-select">
+                                    <option selected>Select</option>
+                                    <option value="1">City 1</option>
+                                    <option value="2">City 2</option>
+                                    <option value="3">City 3</option>
+                                    <option value="4">City 4</option>
+                                    <option value="5">City 5</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="fullAddress" class="form-label">Full Address</label>
+                                <textarea class="form-control" id="fullAddress" rows="3"></textarea>
+                            </div>
+
+                            <div class="newAddress-radio d-flex">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="home">
+                                    <label class="form-check-label" for="home">
+                                        Home
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="office" checked>
+                                    <label class="form-check-label" for="office">
+                                        Office
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="other" checked>
+                                    <label class="form-check-label" for="other">
+                                        Other
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn second-btn w-100 text-center" data-bs-toggle="modal" data-bs-target="#addNewAddressModal">Save Address</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ADD NEW ADDRESS MODAL END -->
+
+
+
+    <!-- CUSTOM JS FILE -->
+    <script defer src="js/main.js"></script>
+
+    <!-- BOOTSTRAP JS FILE CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

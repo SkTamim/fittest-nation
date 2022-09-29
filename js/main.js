@@ -25,6 +25,24 @@ try {
 }
 
 try {
+	const payItem = document.querySelectorAll(".pay-mode-item");
+	payItem.forEach((item) => {
+		item.addEventListener("click", () => {
+			payItem.forEach((el) => {
+				el.classList.remove("active");
+			});
+			if (item.classList[1]) {
+				item.classList.remove("active");
+			} else {
+				item.classList.add("active");
+			}
+		});
+	});
+} catch (error) {
+	console.log(error);
+}
+
+try {
 	// TAB ITEM FUNCTIONALITY
 	const tabDropdown = document.querySelector(".tab-dropdown span");
 	let activeTab = document.querySelector(".tab-container .nav-link.active");
