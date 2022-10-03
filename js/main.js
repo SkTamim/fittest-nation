@@ -60,6 +60,24 @@ try {
 } catch (error) {
 	console.log(error);
 }
+try {
+	// LANGUAGE CHANGE FUNCTIONALITY
+	const languageItems = document.querySelectorAll(".language-item");
+	languageItems.forEach((item) => {
+		item.addEventListener("click", () => {
+			languageItems.forEach((el) => {
+				el.classList.remove("active");
+			});
+			if (item.classList[1]) {
+				item.classList.remove("active");
+			} else {
+				item.classList.add("active");
+			}
+		});
+	});
+} catch (error) {
+	console.log(error);
+}
 
 //PRICE SLIDER
 try {
