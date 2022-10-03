@@ -21,6 +21,25 @@
 	.category-hero-area h1 {
 		font-size: 44px;
 	}
+
+	.login-with::before {
+		content: "";
+		width: 25%;
+		height: 2px;
+		position: absolute;
+		top: 50%;
+		left: 4%;
+		background-color: var(--color-primary);
+	}
+	.login-with::after {
+		content: "";
+		width: 25%;
+		height: 2px;
+		position: absolute;
+		top: 50%;
+		right: 4%;
+		background-color: var(--color-primary);
+	}
 }
 @media screen and (max-width: 594px) {
 	.tab-container {

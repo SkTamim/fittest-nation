@@ -472,6 +472,40 @@ img {
 	font-size: 20px;
 }
 
+/* OTHER STYLES */
+.login-socials {
+	display: flex;
+	justify-content: center;
+}
+.login-socials i {
+	font-size: 25px;
+	color: var(--color-primary);
+	margin: 5px 10px;
+}
+.login-with {
+	position: relative;
+	color: var(--color-primary);
+	font-weight: bold;
+}
+.login-with::before {
+	content: "";
+	width: 25%;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	background-color: var(--color-primary);
+}
+.login-with::after {
+	content: "";
+	width: 25%;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	background-color: var(--color-primary);
+}
+
 /* UTILITIES */
 .bg-main {
 	background-color: var(--color-primary);
