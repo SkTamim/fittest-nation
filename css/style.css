@@ -813,3 +813,15 @@ img {
 [disabled] .noUi-handle {
 	cursor: not-allowed;
 }
+
+/* ============================================================================
+								 ARABIC STYLES START 
+================================================================================ */
+.arabic-body {
+	direction: rtl;
+	font-family: "Cairo", sans-serif;
+}
+.arabic-body .remove-btn {
+	left: 10px;
+	right: inherit;
+}
