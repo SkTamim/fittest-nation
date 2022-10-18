@@ -27,13 +27,13 @@
 
 </head>
 
-<body>
+<body class="arabic-body">
 
     <!-- NAVIGATION -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-main">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="ar-index.html">
                     <img src="images/logo-2.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,21 +42,21 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="ar-index.html">بيت</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">About us</a>
+                            <a class="nav-link" href="ar-about-us.html">عنا </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact-us.html">Contact us</a>
+                            <a class="nav-link" href="ar-contact-us.html">تواصل معنا </a>
                         </li>
                     </ul>
-                    <ul class="ms-auto navbar-nav">
-                        <li class="nav-item me-2 mb-lg-0 mb-2">
-                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <ul class=" navbar-nav">
+                        <li class="nav-item ms-2 mb-lg-0 mb-2">
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#loginModal">تسجيل الدخول </button>
                         </li>
                         <li class="nav-item">
-                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#registerModal">Register</button>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#registerModal">تسجيل </button>
                         </li>
                     </ul>
 
@@ -68,22 +68,22 @@
     <!-- HERO -->
     <div class="category-hero-area container-fluid" style="--bg-image:url(../images/gym-bg.jpg)">
         <div class="container d-flex justify-content-center align-items-center flex-column">
-            <h1>Checkout</h1>
+            <h1>الدفع</h1>
 
             <div class="d-flex position-relative">
+                <div class="checkout-progress">
+                    <a href="ar-checkout.html">01</a>
+                    <p>تبوك </p>
+                </div>
+                <div class="progress-line"></div>
                 <div class="checkout-progress active">
-                    <a href="checkout.html">01</a>
-                    <p>Address</p>
+                    <a href="ar-checkout-2.html">02</a>
+                    <p>ملخص الطلب</p>
                 </div>
                 <div class="progress-line"></div>
                 <div class="checkout-progress">
-                    <a href="checkout-2.html">02</a>
-                    <p>Order Summary</p>
-                </div>
-                <div class="progress-line"></div>
-                <div class="checkout-progress">
-                    <a href="checkout-3.html">03</a>
-                    <p>Payment</p>
+                    <a href="ar-checkout-3.html">03</a>
+                    <p>دفع</p>
                 </div>
             </div>
         </div>
@@ -92,78 +92,108 @@
     <!-- MAIN SECTION START -->
     <div class="container-xxl my-5">
         <div class="d-flex justify-content-between">
-            <h5>Choose Address</h5>
-            <button class="btn color-second fw-bold" data-bs-toggle="modal" data-bs-target="#addNewAddressModal">+ Add Addresss</button>
-        </div>
-
-        <div class="membership-item address-selected">
-            <div class="d-flex justify-content-between border-bottom pb-1">
-                <div>
-                    <h5 class="m-0 color-second">Vivek Saxena</h5>
-                    <p class="m-0 text-muted">vksaxena07@gmail.com</p>
-                </div>
-                <i class="bi bi-check-circle-fill color-second"></i>
-            </div>
-
-            <div class="mt-2 d-flex justify-content-between align-items-center">
-                <div>
-                    <h6 class="m-0">UAE, Abu Dhabi</h6>
-                    <p class="text-muted m-0">
-                        Office 04, Farwaniya Opp macdonalds, Nr. Jamaiya
-                    </p>
-                </div>
-                <div class="address-place">Home</div>
-            </div>
+            <h5>تفاصيل العنوان</h5>
         </div>
 
         <div class="membership-item">
             <div class="d-flex justify-content-between border-bottom pb-1">
                 <div>
-                    <h5 class="m-0 color-second">Vivek Saxena</h5>
+                    <h5 class="m-0">فيفيك ساكسينا</h5>
                     <p class="m-0 text-muted">vksaxena07@gmail.com</p>
+                    <p class="m-0 text-muted">971-98698 60011</p>
                 </div>
+                <button class="border-0 text-decoration-underline bg-transparent fw-500" data-bs-toggle="modal" data-bs-target="#addNewAddressModal">تعديل <i class="bi bi-pencil-fill"></i></button>
             </div>
 
             <div class="mt-2 d-flex justify-content-between align-items-center">
                 <div>
-                    <h6 class="m-0">UAE, Abu Dhabi</h6>
+                    <h6 class="text-muted">العنوان :</h6>
+                    <h6 class="m-0">الإمارات العربية المتحدة, أبو ظبي</h6>
                     <p class="text-muted m-0">
-                        Office 04, Farwaniya Opp macdonalds, Nr. Jamaiya
+                        مكتب 04 ، الفروانية ، مقابل ماكدونالدز ، رقم. الجمعية
                     </p>
                 </div>
-                <div class="address-place">Office</div>
             </div>
         </div>
 
+
+        <h5 class="mt-4">تفاصيل الطلب</h5>
+        <div class="membership-item order-details-item">
+            <div class="d-flex align-items-center border-bottom pb-2">
+                <img src="images/image-placeholder.jpg" alt="Image" class="ms-3">
+                <h6 class="m-0 color-main">فصول استوديو اللياقة البدنية في مكان - كروس فيت</h6>
+            </div>
+
+            <div class="py-1 d-flex justify-content-between border-bottom">
+                <div class="me-2">
+                    <p class="m-0 text-muted">المدة :</p>
+                    <p class="m-0">30 دقائق </p>
+                </div>
+                <div>
+                    <p class="m-0 text-muted">الوقت :</p>
+                    <p class="m-0">3:00 pm - 3:30 pm w/ محمود</p>
+                </div>
+            </div>
+            <div class="text-end mt-2">
+                <div>
+                    <h5 class="membership-price m-0">KD 100.000</h5>
+                    <del class="text-muted m-0 text-14">KD 100.000</del>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="membership-item order-details-item">
+            <div class="d-flex align-items-center border-bottom pb-2">
+                <img src="images/image-placeholder.jpg" alt="Image" class="ms-3">
+                <h6 class="m-0 color-main">فصول استوديو اللياقة البدنية في مكان - كروس فيت</h6>
+            </div>
+
+            <div class="py-1 d-flex justify-content-between border-bottom">
+                <div class="me-2">
+                    <p class="m-0 text-muted">المدة :</p>
+                    <p class="m-0">30 دقائق</p>
+                </div>
+                <div>
+                    <p class="m-0 text-muted">الوقت:</p>
+                    <p class="m-0">3:00 pm - 3:30 pm w/ محمود</p>
+                </div>
+            </div>
+            <div class="text-end mt-2">
+                <div>
+                    <h5 class="membership-price m-0">KD 100.000</h5>
+                    <del class="text-muted m-0 text-14">KD 100.000</del>
+                </div>
+            </div>
+
+        </div>
+
+        <h5 class="mt-4">تطبيق الرمز الترويجي</h5>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control rounded-1" placeholder="تطبيق الرمز الترويجي" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn main-btn rounded-1" type="button" id="button-addon2">يتقدم</button>
+        </div>
+
+        <h5 class="mt-4">تفاصيل السعر</h5>
         <div class="membership-item">
-            <div class="d-flex justify-content-between border-bottom pb-1">
-                <div>
-                    <h5 class="m-0 color-second">Vivek Saxena</h5>
-                    <p class="m-0 text-muted">vksaxena07@gmail.com</p>
-                </div>
+            <div class="d-flex justify-content-between pb-2">
+                <p class="m-0 text-muted fw-500">السعر (2 البنود )</p>
+                <p class="m-0 fw-500">KD 14.000</p>
+            </div>
+            <div class="d-flex justify-content-between border-bottom pb-2">
+                <p class="m-0 text-muted fw-500">إجمالي الخصم <span class="color-second ms-2">(SAVEBIG)</span> </p>
+                <p class="m-0 fw-500">- KD 4.000</p>
             </div>
 
-            <div class="mt-2 d-flex justify-content-between align-items-center">
-                <div>
-                    <h6 class="m-0">UAE, Abu Dhabi</h6>
-                    <p class="text-muted m-0">
-                        Office 04, Farwaniya Opp macdonalds, Nr. Jamaiya
-                    </p>
-                </div>
-                <div class="address-place">Other</div>
+            <div class="d-flex justify-content-between py-2">
+                <h5 class="m-0 me-2">المجموع </h5>
+                <h5 class="membership-price m-0">KD 10.000</h5>
             </div>
-        </div>
 
 
-        <div class="d-flex align-items-center my-3">
-            <input type="checkbox" name="agree" id="agree" class="form-check me-2">
-            <p class="m-0">
-                <label for="agree">I agree to Fittest Nations's,</label>
-                <a href="#">Terms of Service,</a>
-                <a href="#">Privacy Policy</a>
-            </p>
         </div>
-        <a href="checkout-2.html" class="btn second-btn proceed-btn">Proceed</a>
+
+        <a href="ar-checkout-3.html" class="btn second-btn proceed-btn">يكمل</a>
 
     </div>
     <!-- MAIN SECTION END -->
@@ -180,29 +210,29 @@
                             <div>
                                 <img src="images/logo-2.png" class="logo-footer">
                                 <p class="text-white mt-2">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ea, perferendis minus magni in eius illo consequuntur! Omnis aspernatur ad adipisci, distinctio assumenda a nobis repellat. Omnis quis expedita harum!
+                                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة رف بفضل هؤلاء الأشخاص الألم هو الألم ولكن نتيجة
                                 </p>
                             </div>
                         </div>
                         <div class="col-md-6 px-4 ps-md-5 mt-4">
-                            <h6 class="text-white"> Categories</h6>
+                            <h6 class="text-white"> التصنيفات</h6>
                             <div class="row ">
                                 <div class="col">
                                     <ul>
 
                                         <li>
                                             <a href="#">
-                                                Category 1
+                                                فئة 1
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                Category 2
+                                                فئة 2
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                Category 3
+                                                فئة 3
                                             </a>
                                         </li>
 
@@ -216,17 +246,17 @@
                 <div class="col-md-6 px-3">
                     <div class="row">
                         <div class="col-md-6 mt-4">
-                            <h6 class="text-white"> Quick links</h6>
+                            <h6 class="text-white">روابط سريعة</h6>
                             <ul>
-                                <li> <a href="#"> About Us</a> </li>
-                                <li> <a href="#"> Privacy Policy</a> </li>
-                                <li> <a href="#"> Return Policy</a> </li>
-                                <li> <a href="#">Blogs</a> </li>
+                                <li> <a href="#"> عنا </a> </li>
+                                <li> <a href="#"> سياسة الخصوصية</a> </li>
+                                <li> <a href="#"> سياسة العائدات</a> </li>
+                                <li> <a href="#">المدونات</a> </li>
                             </ul>
                         </div>
 
                         <div class="col-md-6 mt-4">
-                            <h6 class="text-white"> Get In Touch</h6>
+                            <h6 class="text-white"> ابقى على تواصل</h6>
                             <ul>
                                 <li class="address d-block">
                                     <a href="tel:123895346">123895346</a>
@@ -267,59 +297,59 @@
                 <div class="modal-body">
                     <form>
                         <div>
-                            <p>Please fill profile details</p>
+                            <p>يرجى ملء تفاصيل الملف الشخصي</p>
 
                             <div class="mb-3">
-                                <label for="fName" class="form-label">First Name</label>
+                                <label for="fName" class="form-label">الإسم الأول </label>
                                 <input type="text" class="form-control" id="fName">
                             </div>
                             <div class="mb-3">
-                                <label for="lName" class="form-label">Last Name</label>
+                                <label for="lName" class="form-label">اسم العائلة </label>
                                 <input type="text" class="form-control" id="lName">
                             </div>
                             <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
+                                <label for="email" class="form-label">البريد الإلكتروني </label>
                                 <input type="email" class="form-control" id="email">
                             </div>
                             <div class="mb-3">
-                                <label for="civilId" class="form-label">Civil ID</label>
+                                <label for="civilId" class="form-label">البطاقة المدنية </label>
                                 <input type="text" class="form-control" id="civilId">
                             </div>
 
                             <div class="mb-3">
-                                <label class="form-label">Gender</label>
+                                <label class="form-label">جنس </label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected>Select</option>
-                                    <option value="female">Female</option>
-                                    <option value="mail">Male</option>
-                                    <option value="other">Other</option>
+                                    <option selected>يختار</option>
+                                    <option value="female">أنثى </option>
+                                    <option value="mail">ذكر </option>
+                                    <option value="other">آخر</option>
                                 </select>
                             </div>
 
                             <div class="mb-3">
-                                <label for="email" class="form-label">Mobile Number</label>
+                                <label for="email" class="form-label">رقم الهاتف المحمول </label>
                                 <input type="email" class="form-control" id="email">
                             </div>
 
                         </div>
 
                         <div class="mt-4">
-                            <p>Please fill address details</p>
+                            <p>يرجى ملء تفاصيل العنوان</p>
 
                             <div class="mb-3">
-                                <label class="form-label">City</label>
+                                <label class="form-label">المدينة </label>
                                 <select class="form-select">
-                                    <option selected>Select</option>
-                                    <option value="1">City 1</option>
-                                    <option value="2">City 2</option>
-                                    <option value="3">City 3</option>
-                                    <option value="4">City 4</option>
-                                    <option value="5">City 5</option>
+                                    <option selected>تحديد</option>
+                                    <option value="1">المدينة 1</option>
+                                    <option value="2">المدينة 2</option>
+                                    <option value="3">المدينة 3</option>
+                                    <option value="4">المدينة 4</option>
+                                    <option value="5">المدينة 5</option>
                                 </select>
                             </div>
 
                             <div class="mb-3">
-                                <label for="fullAddress" class="form-label">Full Address</label>
+                                <label for="fullAddress" class="form-label">العنوان الكامل</label>
                                 <textarea class="form-control" id="fullAddress" rows="3"></textarea>
                             </div>
 
@@ -327,19 +357,19 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="home">
                                     <label class="form-check-label" for="home">
-                                        Home
+                                        بيت
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="office" checked>
                                     <label class="form-check-label" for="office">
-                                        Office
+                                        مكتب
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="other" checked>
                                     <label class="form-check-label" for="other">
-                                        Other
+                                        آخر
                                     </label>
                                 </div>
                             </div>
@@ -349,7 +379,7 @@
 
                 </div>
                 <div class="modal-footer">
-                    <a href="#" class="btn second-btn w-100 text-center" data-bs-toggle="modal" data-bs-target="#addNewAddressModal">Save Address</a>
+                    <a href="#" class="btn second-btn w-100 text-center" data-bs-toggle="modal" data-bs-target="#addNewAddressModal">حفظ العنوان</a>
                 </div>
             </div>
         </div>
