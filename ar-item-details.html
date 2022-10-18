@@ -30,13 +30,13 @@
 
 </head>
 
-<body>
+<body class="arabic-body">
 
     <!-- NAVIGATION -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-main">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="ar-index.html">
                     <img src="images/logo-2.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,21 +45,21 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="ar-index.html">بيت</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">About us</a>
+                            <a class="nav-link" href="ar-about-us.html">عنا </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact-us.html">Contact us</a>
+                            <a class="nav-link" href="ar-contact-us.html">تواصل معنا </a>
                         </li>
                     </ul>
-                    <ul class="ms-auto navbar-nav">
-                        <li class="nav-item me-2 mb-lg-0 mb-2">
-                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <ul class=" navbar-nav">
+                        <li class="nav-item ms-2 mb-lg-0 mb-2">
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#loginModal">تسجيل الدخول </button>
                         </li>
                         <li class="nav-item">
-                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#registerModal">Register</button>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#registerModal">تسجيل </button>
                         </li>
                     </ul>
 
@@ -72,40 +72,40 @@
     <div class="category-hero-area container-fluid" style="--bg-image:url(../images/gym-bg.jpg)">
         <div class="container d-flex justify-content-center align-items-center flex-column">
             <div class="review-info">
-                <i class="bi bi-star-fill pe-1 text-warning"></i>
+                <span class="ps-1"> التعليقات 0</span>
                 <span class="border-end pe-1">0</span>
-                <span class="ps-1">0 Reviews</span>
+                <i class="bi bi-star-fill pe-1 text-warning"></i>
             </div>
 
-            <div class="type">Female</div>
+            <div class="type">أنثى </div>
         </div>
     </div>
 
     <!-- MAIN SECTION START -->
     <div class="container-xxl my-5">
-        <h2 class="main-heading mb-3">Lightness Gym</h2>
+        <h2 class="main-heading mb-3"> جيم نادي رياضي </h2>
 
         <div class="swiper tab-swiper">
             <ul class="nav nav-pills swiper-wrapper flex-nowrap py-2" id="pills-tab" role="tablist">
 
                 <li class="nav-item swiper-slide" role="presentation">
-                    <button class="nav-link active" id="pills-about-tab" data-bs-toggle="pill" data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about" aria-selected="true">About Us</button>
+                    <button class="nav-link active" id="pills-about-tab" data-bs-toggle="pill" data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about" aria-selected="true">عنا </button>
                 </li>
 
                 <li class="nav-item swiper-slide" role="presentation">
-                    <button class="nav-link" id="pills-classes-tab" data-bs-toggle="pill" data-bs-target="#pills-classes" type="button" role="tab" aria-controls="pills-classes" aria-selected="false">Classes</button>
+                    <button class="nav-link" id="pills-classes-tab" data-bs-toggle="pill" data-bs-target="#pills-classes" type="button" role="tab" aria-controls="pills-classes" aria-selected="false">الصفوف </button>
                 </li>
 
                 <li class="nav-item swiper-slide" role="presentation">
-                    <button class="nav-link" id="pills-personal-trainer-tab" data-bs-toggle="pill" data-bs-target="#pills-personal-trainer" type="button" role="tab" aria-controls="pills-personal-trainer" aria-selected="false">Personal Trainer</button>
+                    <button class="nav-link" id="pills-personal-trainer-tab" data-bs-toggle="pill" data-bs-target="#pills-personal-trainer" type="button" role="tab" aria-controls="pills-personal-trainer" aria-selected="false">مدرب شخصي </button>
                 </li>
 
                 <li class="nav-item swiper-slide" role="presentation">
-                    <button class="nav-link" id="pills-memberships-tab" data-bs-toggle="pill" data-bs-target="#pills-memberships" type="button" role="tab" aria-controls="pills-memberships" aria-selected="false">Memberships</button>
+                    <button class="nav-link" id="pills-memberships-tab" data-bs-toggle="pill" data-bs-target="#pills-memberships" type="button" role="tab" aria-controls="pills-memberships" aria-selected="false">العضويات</button>
                 </li>
 
                 <li class="nav-item swiper-slide" role="presentation">
-                    <button class="nav-link" id="pills-packages-tab" data-bs-toggle="pill" data-bs-target="#pills-packages" type="button" role="tab" aria-controls="pills-packages" aria-selected="false">Packages</button>
+                    <button class="nav-link" id="pills-packages-tab" data-bs-toggle="pill" data-bs-target="#pills-packages" type="button" role="tab" aria-controls="pills-packages" aria-selected="false">الحزم </button>
                 </li>
 
             </ul>
@@ -116,10 +116,10 @@
     </div>
 
 
-    <div class="tab-content" id="pills-tabContent">
+    <div class="tab-content container-xxl" id="pills-tabContent">
         <!-- TAB ONE START -->
         <div class="tab-pane fade show active border-top mt-2 py-3" id="pills-about" role="tabpanel" aria-labelledby="pills-home-tab">
-            <h5 class="main-heading text-capitalize">Gym Activities:</h5>
+            <h5 class="main-heading text-capitalize">أنشطة النادي الرياضية: </h5>
 
             <div class="swiper activities-swiper">
                 <ul class="swiper-wrapper">
@@ -197,19 +197,19 @@
                 <div class="swiper-button-prev"></div>
             </div>
 
-            <h6 class="main-heading text-capitalize mt-4">Address:</h6>
+            <h6 class="main-heading text-capitalize mt-4">العنوان :</h6>
             <p class="text-muted">
                 <i class="bi bi-geo-alt me-1"></i>
-                Kuwait Magic Mall, Abu Halifah, Al Asimah, Kuwait
+                كويت ماجيك مول ، أبو حليفة ، العاصمة ، الكويت
             </p>
 
             <div class="py-2 my-3 d-flex justify-content-between px-3 border-top border-bottom">
-                <p class="m-0 fw-bold">Total Reviews</p>
-                <a href="#" class="btn-link">View All <i class="bi bi-arrow-right ms-1"></i></a>
+                <p class="m-0 fw-bold">إجمالي المراجعات</p>
+                <a href="#" class="btn-link"> <i class="bi bi-arrow-right me-1"></i> مشاهدة الكل </a>
             </div>
 
             <div class="gallery">
-                <h6 class="main-heading text-capitalize mb-2">Gallery</h6>
+                <h6 class="main-heading text-capitalize mb-2">معرض </h6>
 
                 <div class="swiper gallery-swiper">
                     <div class="swiper-wrapper photo-gallery">
@@ -255,13 +255,13 @@
 
             <ul class="nav nav-pills my-3 justify-content-around flex-nowrap" id="classes-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-morning-tab" data-bs-toggle="pill" data-bs-target="#pills-morning" type="button" role="tab" aria-controls="pills-morning" aria-selected="true">Morning</button>
+                    <button class="nav-link active" id="pills-morning-tab" data-bs-toggle="pill" data-bs-target="#pills-morning" type="button" role="tab" aria-controls="pills-morning" aria-selected="true">صباح </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-afternoon-tab" data-bs-toggle="pill" data-bs-target="#pills-afternoon" type="button" role="tab" aria-controls="pills-afternoon" aria-selected="false">Afternoon</button>
+                    <button class="nav-link" id="pills-afternoon-tab" data-bs-toggle="pill" data-bs-target="#pills-afternoon" type="button" role="tab" aria-controls="pills-afternoon" aria-selected="false">بعد الظهر </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-evening-tab" data-bs-toggle="pill" data-bs-target="#pills-evening" type="button" role="tab" aria-controls="pills-evening" aria-selected="false">Evening</button>
+                    <button class="nav-link" id="pills-evening-tab" data-bs-toggle="pill" data-bs-target="#pills-evening" type="button" role="tab" aria-controls="pills-evening" aria-selected="false">مساء </button>
                 </li>
             </ul>
 
@@ -277,14 +277,14 @@
                             </div>
                         </div>
                         <div>
-                            <h6 class="m-0">Duration</h6>
-                            <p class=" text-muted">20 Minutes</p>
+                            <h6 class="m-0">المدة </h6>
+                            <p class=" text-muted">20 دقائق </p>
                         </div>
                         <div>
-                            <h6 class="m-0">Time</h6>
+                            <h6 class="m-0">الوقت </h6>
                             <p class=" text-muted">15:00 - 15:20</p>
                         </div>
-                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">أضف إلى السلة </button>
                     </div>
 
                     <div class="membership-item">
@@ -296,14 +296,14 @@
                             </div>
                         </div>
                         <div>
-                            <h6 class="m-0">Duration</h6>
-                            <p class=" text-muted">20 Minutes</p>
+                            <h6 class="m-0">المدة </h6>
+                            <p class=" text-muted">20 دقائق</p>
                         </div>
                         <div>
-                            <h6 class="m-0">Time</h6>
+                            <h6 class="m-0">الوقت</h6>
                             <p class=" text-muted">16:00 - 16:20</p>
                         </div>
-                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">أضف إلى السلة </button>
                     </div>
 
                     <div class="membership-item">
@@ -315,14 +315,14 @@
                             </div>
                         </div>
                         <div>
-                            <h6 class="m-0">Duration</h6>
-                            <p class=" text-muted">20 Minutes</p>
+                            <h6 class="m-0">المدة</h6>
+                            <p class=" text-muted">20 دقائق</p>
                         </div>
                         <div>
-                            <h6 class="m-0">Time</h6>
+                            <h6 class="m-0">الوقت</h6>
                             <p class=" text-muted">17:00 - 17:20</p>
                         </div>
-                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">أضف إلى السلة </button>
                     </div>
 
 
@@ -339,14 +339,14 @@
                             </div>
                         </div>
                         <div>
-                            <h6 class="m-0">Duration</h6>
-                            <p class=" text-muted">20 Minutes</p>
+                            <h6 class="m-0">المدة</h6>
+                            <p class=" text-muted">20 دقائق</p>
                         </div>
                         <div>
-                            <h6 class="m-0">Time</h6>
+                            <h6 class="m-0">الوقت</h6>
                             <p class=" text-muted">15:00 - 15:20</p>
                         </div>
-                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">أضف إلى السلة </button>
                     </div>
 
                     <div class="membership-item">
@@ -358,14 +358,14 @@
                             </div>
                         </div>
                         <div>
-                            <h6 class="m-0">Duration</h6>
-                            <p class=" text-muted">20 Minutes</p>
+                            <h6 class="m-0">المدة</h6>
+                            <p class=" text-muted">20 دقائق</p>
                         </div>
                         <div>
-                            <h6 class="m-0">Time</h6>
+                            <h6 class="m-0">الوقت</h6>
                             <p class=" text-muted">16:00 - 16:20</p>
                         </div>
-                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">أضف إلى السلة </button>
                     </div>
 
                     <div class="membership-item">
@@ -377,14 +377,14 @@
                             </div>
                         </div>
                         <div>
-                            <h6 class="m-0">Duration</h6>
-                            <p class=" text-muted">20 Minutes</p>
+                            <h6 class="m-0">المدة</h6>
+                            <p class=" text-muted">20 دقائق</p>
                         </div>
                         <div>
-                            <h6 class="m-0">Time</h6>
+                            <h6 class="m-0">الوقت</h6>
                             <p class=" text-muted">17:00 - 17:20</p>
                         </div>
-                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">أضف إلى السلة </button>
                     </div>
                 </div>
 
@@ -399,14 +399,14 @@
                             </div>
                         </div>
                         <div>
-                            <h6 class="m-0">Duration</h6>
-                            <p class=" text-muted">20 Minutes</p>
+                            <h6 class="m-0">المدة</h6>
+                            <p class=" text-muted">20 دقائق</p>
                         </div>
                         <div>
-                            <h6 class="m-0">Time</h6>
+                            <h6 class="m-0">الوقت</h6>
                             <p class=" text-muted">15:00 - 15:20</p>
                         </div>
-                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">أضف إلى السلة </button>
                     </div>
 
                     <div class="membership-item">
@@ -418,14 +418,14 @@
                             </div>
                         </div>
                         <div>
-                            <h6 class="m-0">Duration</h6>
-                            <p class=" text-muted">20 Minutes</p>
+                            <h6 class="m-0">المدة</h6>
+                            <p class=" text-muted">20 دقائق</p>
                         </div>
                         <div>
-                            <h6 class="m-0">Time</h6>
+                            <h6 class="m-0">الوقت</h6>
                             <p class=" text-muted">16:00 - 16:20</p>
                         </div>
-                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">أضف إلى السلة </button>
                     </div>
 
                     <div class="membership-item">
@@ -437,14 +437,14 @@
                             </div>
                         </div>
                         <div>
-                            <h6 class="m-0">Duration</h6>
-                            <p class=" text-muted">20 Minutes</p>
+                            <h6 class="m-0">المدة</h6>
+                            <p class=" text-muted">20 دقائق</p>
                         </div>
                         <div>
-                            <h6 class="m-0">Time</h6>
+                            <h6 class="m-0">الوقت</h6>
                             <p class=" text-muted">17:00 - 17:20</p>
                         </div>
-                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">Add to Cart</button>
+                        <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#classAdddModal">أضف إلى السلة </button>
                     </div>
                 </div>
             </div>
@@ -457,72 +457,73 @@
         <div class="tab-pane fade border-top mt-2 py-3" id="pills-personal-trainer" role="tabpanel" aria-labelledby="pills-personal-trainer-tab">
             <div class="membership-item">
                 <div class="d-flex border-bottom py-2 mb-2">
-                    <img src="images/gym-1.jpg" alt="Image" class="trainer-img me-2">
+                    <img src="images/gym-1.jpg" alt="Image" class="trainer-img ms-2">
                     <div class="flex-grow-1">
                         <div class="d-flex justify-content-between">
-                            <h5 class="m-0">Ellen Boyce</h5>
-                            <p class="m-0 color-second"><i class="bi bi-star-fill color-second"></i> 4.5 | 99+ Reviews</p>
+                            <h5 class="m-0">إلين بويس</h5>
+                            <p class="m-0 color-second"><i class="bi bi-star-fill color-second"></i> 4.5 | 99+ التعليقات </p>
                         </div>
-                        <p class="m-0">Description:</p>
-                        <p class="m-0 text-muted text-14">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, libero!</p>
+                        <p class="m-0">وصف المنتج :</p>
+                        <p class="m-0 text-muted text-14">هد بدني شاق إلا من أجل الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما </p>
                     </div>
                 </div>
 
-                <h6 class="m-0">Activities:</h6>
+                <h6 class="m-0">أنشطة :</h6>
                 <div class="my-2 d-flex flex-wrap">
-                    <div class="pta-item">Core</div>
-                    <div class="pta-item">Swimming</div>
-                    <div class="pta-item">Core</div>
+                    <div class="pta-item">جوهر</div>
+                    <div class="pta-item">سباحة</div>
+                    <div class="pta-item">جوهر</div>
                 </div>
 
-                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">Add to Cart</button>
+                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">أضف إلى السلة </button>
             </div>
 
             <div class="membership-item">
                 <div class="d-flex border-bottom py-2 mb-2">
-                    <img src="images/gym-1.jpg" alt="Image" class="trainer-img me-2">
+                    <img src="images/gym-1.jpg" alt="Image" class="trainer-img ms-2">
                     <div class="flex-grow-1">
                         <div class="d-flex justify-content-between">
-                            <h5 class="m-0">Ellen Boyce</h5>
-                            <p class="m-0 color-second"><i class="bi bi-star-fill color-second"></i> 4.5 | 99+ Reviews</p>
+                            <h5 class="m-0">إلين بويس</h5>
+                            <p class="m-0 color-second"><i class="bi bi-star-fill color-second"></i> 4.5 | 99+ التعليقات </p>
                         </div>
-                        <p class="m-0">Description:</p>
-                        <p class="m-0 text-muted text-14">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, libero!</p>
+                        <p class="m-0">وصف المنتج :</p>
+                        <p class="m-0 text-muted text-14">هد بدني شاق إلا من أجل الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما </p>
                     </div>
                 </div>
 
-                <h6 class="m-0">Activities:</h6>
+                <h6 class="m-0">أنشطة :</h6>
                 <div class="my-2 d-flex flex-wrap">
-                    <div class="pta-item">Core</div>
-                    <div class="pta-item">Swimming</div>
-                    <div class="pta-item">Core</div>
+                    <div class="pta-item">جوهر</div>
+                    <div class="pta-item">سباحة</div>
+                    <div class="pta-item">جوهر</div>
                 </div>
 
-                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">Add to Cart</button>
+                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">أضف إلى السلة </button>
             </div>
 
             <div class="membership-item">
                 <div class="d-flex border-bottom py-2 mb-2">
-                    <img src="images/gym-1.jpg" alt="Image" class="trainer-img me-2">
+                    <img src="images/gym-1.jpg" alt="Image" class="trainer-img ms-2">
                     <div class="flex-grow-1">
                         <div class="d-flex justify-content-between">
-                            <h5 class="m-0">Ellen Boyce</h5>
-                            <p class="m-0 color-second"><i class="bi bi-star-fill color-second"></i> 4.5 | 99+ Reviews</p>
+                            <h5 class="m-0">إلين بويس</h5>
+                            <p class="m-0 color-second"><i class="bi bi-star-fill color-second"></i> 4.5 | 99+ التعليقات </p>
                         </div>
-                        <p class="m-0">Description:</p>
-                        <p class="m-0 text-muted text-14">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, libero!</p>
+                        <p class="m-0">وصف المنتج :</p>
+                        <p class="m-0 text-muted text-14">هد بدني شاق إلا من أجل الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما </p>
                     </div>
                 </div>
 
-                <h6 class="m-0">Activities:</h6>
+                <h6 class="m-0">أنشطة :</h6>
                 <div class="my-2 d-flex flex-wrap">
-                    <div class="pta-item">Core</div>
-                    <div class="pta-item">Swimming</div>
-                    <div class="pta-item">Core</div>
+                    <div class="pta-item">جوهر</div>
+                    <div class="pta-item">سباحة</div>
+                    <div class="pta-item">جوهر</div>
                 </div>
 
-                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">Add to Cart</button>
+                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">أضف إلى السلة </button>
             </div>
+
 
 
         </div>
@@ -532,44 +533,42 @@
         <div class="tab-pane fade" id="pills-memberships" role="tabpanel" aria-labelledby="pills-memberships-tab">
             <div class="membership-item">
                 <div class="d-flex justify-content-between border-bottom py-2 mb-2">
-                    <h5 class="m-0">1 week membership</h5>
+                    <h5 class="m-0">1 أسبوع عضوية</h5>
                     <div class="membership-price">KD 25.000</div>
                 </div>
-                <p class="fw-500 text-muted mb-2">1 week membership</p>
+                <p class="fw-500 text-muted mb-2">1 أسبوع عضوية</p>
                 <div class="d-flex justify-content-between">
-                    <h6>Duration</h6>
-                    <p class="fw-bold text-muted">1 week</p>
+                    <h6>المدة </h6>
+                    <p class="fw-bold text-muted">1 أسبوع </p>
                 </div>
-                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">Buy Now</button>
+                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">اشتر الآن </button>
             </div>
 
             <div class="membership-item">
                 <div class="d-flex justify-content-between border-bottom py-2 mb-2">
-                    <h5 class="m-0">1 year membership</h5>
+                    <h5 class="m-0">1 عام عضوية</h5>
                     <div class="membership-price">KD 500.000</div>
                 </div>
-                <p class="fw-500 text-muted mb-2">1 year membership + 2 Months Free</p>
+                <p class="fw-500 text-muted mb-2">1 عام عضوية + 2 شهور حر</p>
                 <div class="d-flex justify-content-between">
-                    <h6>Duration</h6>
-                    <p class="fw-bold text-muted">1 year</p>
+                    <h6>المدة</h6>
+                    <p class="fw-bold text-muted">1 عام</p>
                 </div>
-                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">Buy Now</button>
+                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">اشتر الآن</button>
             </div>
 
             <div class="membership-item">
                 <div class="d-flex justify-content-between border-bottom py-2 mb-2">
-                    <h5 class="m-0">1 week membership</h5>
+                    <h5 class="m-0">1 أسبوع عضوية</h5>
                     <div class="membership-price">KD 25.000</div>
                 </div>
-                <p class="fw-500 text-muted mb-2">1 week membership </p>
+                <p class="fw-500 text-muted mb-2">1 أسبوع عضوية</p>
                 <div class="d-flex justify-content-between">
-                    <h6>Duration</h6>
-                    <p class="fw-bold text-muted">1 week</p>
+                    <h6>المدة </h6>
+                    <p class="fw-bold text-muted">1 أسبوع </p>
                 </div>
-                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">Buy Now</button>
+                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#buyNowModal">اشتر الآن </button>
             </div>
-
-
 
         </div>
         <!-- TAB FOUR END -->
@@ -578,38 +577,38 @@
         <div class="tab-pane fade" id="pills-packages" role="tabpanel" aria-labelledby="pills-packages-tab">
             <div class="membership-item">
                 <div class="d-flex justify-content-between border-bottom py-2 mb-2">
-                    <h5 class="m-0">10 Personal Training Sessions</h5>
+                    <h5 class="m-0">10 جلسات تدريب شخصية</h5>
                     <div class="membership-price">KD 150.000</div>
                 </div>
 
-                <h6 class="m-0">Description</h6>
-                <p class=" text-muted">10 Personal Training Sessions</p>
+                <h6 class="m-0">وصف المنتج</h6>
+                <p class=" text-muted">10 جلسات تدريب شخصية</p>
 
-                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">Add to Cart</button>
+                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">أضف إلى السلة</button>
             </div>
 
             <div class="membership-item">
                 <div class="d-flex justify-content-between border-bottom py-2 mb-2">
-                    <h5 class="m-0">20 Personal Training Sessions</h5>
+                    <h5 class="m-0">20 جلسات تدريب شخصية</h5>
                     <div class="membership-price">KD 260.000</div>
                 </div>
 
-                <h6 class="m-0">Description</h6>
-                <p class=" text-muted">20 Personal Training Sessions</p>
+                <h6 class="m-0">وصف المنتج</h6>
+                <p class=" text-muted">20 جلسات تدريب شخصية</p>
 
-                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">Add to Cart</button>
+                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">أضف إلى السلة</button>
             </div>
 
             <div class="membership-item">
                 <div class="d-flex justify-content-between border-bottom py-2 mb-2">
-                    <h5 class="m-0">36 Personal Training Sessions</h5>
+                    <h5 class="m-0">36 جلسات تدريب شخصية</h5>
                     <div class="membership-price">KD 360.000</div>
                 </div>
 
-                <h6 class="m-0">Description</h6>
-                <p class=" text-muted">36 Personal Training Sessions</p>
+                <h6 class="m-0">وصف المنتج</h6>
+                <p class=" text-muted">36 جلسات تدريب شخصية</p>
 
-                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">Add to Cart</button>
+                <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#addToCartModal">أضف إلى السلة</button>
             </div>
 
 
@@ -637,29 +636,29 @@
                             <div>
                                 <img src="images/logo-2.png" class="logo-footer">
                                 <p class="text-white mt-2">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ea, perferendis minus magni in eius illo consequuntur! Omnis aspernatur ad adipisci, distinctio assumenda a nobis repellat. Omnis quis expedita harum!
+                                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة رف بفضل هؤلاء الأشخاص الألم هو الألم ولكن نتيجة
                                 </p>
                             </div>
                         </div>
                         <div class="col-md-6 px-4 ps-md-5 mt-4">
-                            <h6 class="text-white"> Categories</h6>
+                            <h6 class="text-white"> التصنيفات</h6>
                             <div class="row ">
                                 <div class="col">
                                     <ul>
 
                                         <li>
                                             <a href="#">
-                                                Category 1
+                                                فئة 1
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                Category 2
+                                                فئة 2
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                Category 3
+                                                فئة 3
                                             </a>
                                         </li>
 
@@ -673,17 +672,17 @@
                 <div class="col-md-6 px-3">
                     <div class="row">
                         <div class="col-md-6 mt-4">
-                            <h6 class="text-white"> Quick links</h6>
+                            <h6 class="text-white">روابط سريعة</h6>
                             <ul>
-                                <li> <a href="#"> About Us</a> </li>
-                                <li> <a href="#"> Privacy Policy</a> </li>
-                                <li> <a href="#"> Return Policy</a> </li>
-                                <li> <a href="#">Blogs</a> </li>
+                                <li> <a href="#"> عنا </a> </li>
+                                <li> <a href="#"> سياسة الخصوصية</a> </li>
+                                <li> <a href="#"> سياسة العائدات</a> </li>
+                                <li> <a href="#">المدونات</a> </li>
                             </ul>
                         </div>
 
                         <div class="col-md-6 mt-4">
-                            <h6 class="text-white"> Get In Touch</h6>
+                            <h6 class="text-white"> ابقى على تواصل</h6>
                             <ul>
                                 <li class="address d-block">
                                     <a href="tel:123895346">123895346</a>
@@ -723,24 +722,24 @@
                 </div>
                 <div class="modal-body">
                     <div class="d-flex justify-content-between border-bottom py-2 mb-2">
-                        <h5 class="m-0">1 week membership</h5>
+                        <h5 class="m-0">1 أسبوع عضوية</h5>
                         <div class="membership-price">KD 25.000</div>
                     </div>
-                    <p class="fw-500 text-muted mb-2">1 week membership</p>
+                    <p class="fw-500 text-muted mb-2">1 أسبوع عضوية</p>
                     <div class="d-flex justify-content-between">
-                        <h6>Duration</h6>
-                        <p class="fw-bold text-muted">1 week</p>
+                        <h6>المدة </h6>
+                        <p class="fw-bold text-muted">1 أسبوع</p>
                     </div>
 
                     <div class="py-2 border-top">
-                        <h5 class="m-0">Select start date</h5>
-                        <p>Your end date will be based on start date</p>
+                        <h5 class="m-0">حدد تاريخ البدء </h5>
+                        <p>سيتم تحديد تاريخ الانتهاء بناءً على تاريخ البدء </p>
 
                         <input type="date" class="start-date form-control">
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <a href="cart.html" class="btn second-btn w-100 text-center">Buy Now</a>
+                    <a href="ar-cart.html" class="btn second-btn w-100 text-center">اشتر الآن </a>
                 </div>
             </div>
         </div>
@@ -756,16 +755,16 @@
                 </div>
                 <div class="modal-body">
                     <div class="d-flex justify-content-between border-bottom py-2 mb-2">
-                        <h5 class="m-0">10 Personal Training Sessions</h5>
+                        <h5 class="m-0">10 جلسات تدريب شخصية</h5>
                         <div class="membership-price">KD 150.000</div>
                     </div>
 
-                    <h6 class="m-0">Description</h6>
-                    <p class=" text-muted">10 Personal Training Sessions</p>
+                    <h6 class="m-0">وصف المنتج </h6>
+                    <p class=" text-muted">10 جلسات تدريب شخصية</p>
 
                 </div>
                 <div class="modal-footer">
-                    <a href="cart.html" class="btn second-btn w-100 text-center">ADD TO CART</a>
+                    <a href="ar-cart.html" class="btn second-btn w-100 text-center">أضف إلى السلة </a>
                 </div>
             </div>
         </div>
@@ -789,12 +788,12 @@
                         </div>
                     </div>
 
-                    <h6 class="m-0">Duration - 20 Minutes</h6>
+                    <h6 class="m-0">المدة - 20 الدقائق</h6>
                     <p class=" text-muted">15:00 - 15:20</p>
 
                 </div>
                 <div class="modal-footer">
-                    <a href="cart.html" class="btn second-btn w-100 text-center">ADD TO CART</a>
+                    <a href="ar-cart.html" class="btn second-btn w-100 text-center">أضف إلى السلة </a>
                 </div>
             </div>
         </div>

@@ -27,13 +27,13 @@
 
 </head>
 
-<body>
+<body class="arabic-body">
 
     <!-- NAVIGATION -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-main">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="ar-index.html">
                     <img src="images/logo-2.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,21 +42,21 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="ar-index.html">بيت</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">About us</a>
+                            <a class="nav-link" href="ar-about-us.html">عنا </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact-us.html">Contact us</a>
+                            <a class="nav-link" href="ar-contact-us.html">تواصل معنا </a>
                         </li>
                     </ul>
-                    <ul class="ms-auto navbar-nav">
-                        <li class="nav-item me-2 mb-lg-0 mb-2">
-                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <ul class=" navbar-nav">
+                        <li class="nav-item ms-2 mb-lg-0 mb-2">
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#loginModal">تسجيل الدخول </button>
                         </li>
                         <li class="nav-item">
-                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#registerModal">Register</button>
+                            <button class="btn second-btn" data-bs-toggle="modal" data-bs-target="#registerModal">تسجيل </button>
                         </li>
                     </ul>
 
@@ -68,84 +68,115 @@
     <!-- HERO -->
     <div class="category-hero-area container-fluid" style="--bg-image:url(../images/gym-bg.jpg)">
         <div class="container d-flex justify-content-center align-items-center flex-column">
-            <h1>My Address</h1>
+            <h1>ملفي الشخصي </h1>
         </div>
     </div>
 
     <!-- MAIN SECTION START -->
     <div class="container my-5">
 
-        <h5>My Address</h5>
-
-        <h6 class="m-0 ms-3">Address - 1</h6>
-        <div class="membership-item">
-            <div class="d-flex justify-content-between border-bottom pb-1">
-                <div>
-                    <h5 class="m-0 color-second">Vivek Saxena</h5>
-                    <p class="m-0 text-muted">vksaxena07@gmail.com</p>
-                </div>
+        <div class="d-flex justify-content-between pb-3">
+            <div>
+                <h5 class=" m-0">فيفيك ساكسينا</h5>
+                <p class="m-0 text-muted">vksaxena07@gmail.com</p>
             </div>
-            <div class="mt-2 d-flex justify-content-between align-items-center">
-                <div>
-                    <h6 class="m-0">UAE, Abu Dhabi</h6>
-                    <p class="text-muted m-0">
-                        Office 04, Farwaniya Opp macdonalds, Nr. Jamaiya
-                    </p>
-                </div>
-                <div class="address-place">Office</div>
-            </div>
+            <button class="color-second btn text-decoration-underline" data-bs-toggle="modal" data-bs-target="#editProfile">تعديل الملف الشخصي <i class="bi bi-pencil-fill"></i></button>
         </div>
 
-
-        <h6 class="m-0 ms-3">Address - 2</h6>
-        <div class="membership-item">
-            <div class="d-flex justify-content-between border-bottom pb-1">
-                <div>
-                    <h5 class="m-0 color-second">Vivek Saxena</h5>
-                    <p class="m-0 text-muted">vksaxena07@gmail.com</p>
+        <div class="py-3 border-top">
+            <button class="language-btn" data-bs-toggle="offcanvas" data-bs-target="#languageOffcanvas" aria-controls="languageOffcanvas">
+                <div class="lan-icon ms-3"><i class="bi bi-translate"></i></div>
+                <div class="text-start">
+                    <h6 class="m-0">تغيير اللغة</h6>
+                    <p class="m-0">عربى</p>
                 </div>
-            </div>
-
-            <div class="mt-2 d-flex justify-content-between align-items-center">
-                <div>
-                    <h6 class="m-0">UAE, Abu Dhabi</h6>
-                    <p class="text-muted m-0">
-                        Office 04, Farwaniya Opp macdonalds, Nr. Jamaiya
-                    </p>
-                </div>
-                <div class="address-place">Other</div>
-            </div>
+                <i class="bi bi-arrow-right me-auto"></i>
+            </button>
         </div>
 
-        <h6 class="m-0 ms-3">Address - 3</h6>
-        <div class="membership-item">
-            <div class="d-flex justify-content-between border-bottom pb-1">
-                <div>
-                    <h5 class="m-0 color-second">Vivek Saxena</h5>
-                    <p class="m-0 text-muted">vksaxena07@gmail.com</p>
-                </div>
-            </div>
-
-            <div class="mt-2 d-flex justify-content-between align-items-center">
-                <div>
-                    <h6 class="m-0">UAE, Abu Dhabi</h6>
-                    <p class="text-muted m-0">
-                        Office 04, Farwaniya Opp macdonalds, Nr. Jamaiya
-                    </p>
-                </div>
-                <div class="address-place">Other</div>
-            </div>
-        </div>
-
-        <div>
-            <button data-bs-toggle="modal" data-bs-target="#addNewAddressModal" class="btn second-btn proceed-btn">Add New Address</button>
-        </div>
+        <h6>العامة</h6>
+        <a href="ar-my-address.html" class="general-item border-bottom">
+            <div class="ms-2"><i class="bi bi-pin-map"></i></div>
+            <h6 class="m-0">عناويني </h6>
+            <i class="bi bi-chevron-right me-auto"></i>
+        </a>
+        <a href="ar-my-orders.html" class="general-item border-bottom">
+            <div class="ms-2"><i class="bi bi-bag"></i></div>
+            <h6 class="m-0">طلباتي</h6>
+            <i class="bi bi-chevron-right me-auto"></i>
+        </a>
+        <a href="#" class="general-item border-bottom">
+            <div class="ms-2"><i class="bi bi-file-earmark-medical"></i></div>
+            <h6 class="m-0">الأحكام والشروط</h6>
+            <i class="bi bi-chevron-right me-auto"></i>
+        </a>
+        <a href="#" class="general-item border-bottom">
+            <div class="ms-2"><i class="bi bi-box-arrow-right"></i></div>
+            <h6 class="m-0">تسجيل خروج</h6>
+        </a>
 
 
     </div>
     <!-- MAIN SECTION END -->
 
 
+
+    <!-- EDIT PROFILE MODAL START -->
+    <div class="modal fade" id="editProfile" tabindex="-1" aria-labelledby="editProfileLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="editProfileLabel">Edit Porfile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div>
+                            <p>Please fill below details</p>
+
+                            <div class="mb-3">
+                                <label for="fName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="fName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="lName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="civilId" class="form-label">Civil ID</label>
+                                <input type="text" class="form-control" id="civilId">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Gender</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select</option>
+                                    <option value="female">Female</option>
+                                    <option value="mail">Male</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Mobile Number</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn second-btn w-100 text-center" data-bs-toggle="modal" data-bs-target="#addNewAddressModal">Save Changes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- EDIT PROFILE MODAL END -->
 
     <!-- ADD NEW ADDRESS MODAL START -->
     <div class="modal fade" id="addNewAddressModal" tabindex="-1" aria-labelledby="addNewAddressModalLabel" aria-hidden="true">
@@ -256,29 +287,29 @@
                             <div>
                                 <img src="images/logo-2.png" class="logo-footer">
                                 <p class="text-white mt-2">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ea, perferendis minus magni in eius illo consequuntur! Omnis aspernatur ad adipisci, distinctio assumenda a nobis repellat. Omnis quis expedita harum!
+                                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة رف بفضل هؤلاء الأشخاص الألم هو الألم ولكن نتيجة
                                 </p>
                             </div>
                         </div>
                         <div class="col-md-6 px-4 ps-md-5 mt-4">
-                            <h6 class="text-white"> Categories</h6>
+                            <h6 class="text-white"> التصنيفات</h6>
                             <div class="row ">
                                 <div class="col">
                                     <ul>
 
                                         <li>
                                             <a href="#">
-                                                Category 1
+                                                فئة 1
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                Category 2
+                                                فئة 2
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                Category 3
+                                                فئة 3
                                             </a>
                                         </li>
 
@@ -292,17 +323,17 @@
                 <div class="col-md-6 px-3">
                     <div class="row">
                         <div class="col-md-6 mt-4">
-                            <h6 class="text-white"> Quick links</h6>
+                            <h6 class="text-white">روابط سريعة</h6>
                             <ul>
-                                <li> <a href="#"> About Us</a> </li>
-                                <li> <a href="#"> Privacy Policy</a> </li>
-                                <li> <a href="#"> Return Policy</a> </li>
-                                <li> <a href="#">Blogs</a> </li>
+                                <li> <a href="#"> عنا </a> </li>
+                                <li> <a href="#"> سياسة الخصوصية</a> </li>
+                                <li> <a href="#"> سياسة العائدات</a> </li>
+                                <li> <a href="#">المدونات</a> </li>
                             </ul>
                         </div>
 
                         <div class="col-md-6 mt-4">
-                            <h6 class="text-white"> Get In Touch</h6>
+                            <h6 class="text-white"> ابقى على تواصل</h6>
                             <ul>
                                 <li class="address d-block">
                                     <a href="tel:123895346">123895346</a>

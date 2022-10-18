@@ -855,3 +855,10 @@ img {
 	left: 39px;
 	z-index: -1 !important;
 }
+
+.arabic-body .bi-arrow-right {
+	transform: rotate(180deg);
+}
+.arabic-body .bi-chevron-right {
+	transform: rotate(180deg);
+}
