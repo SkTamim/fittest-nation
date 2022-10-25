@@ -13,7 +13,8 @@
 	.membership-item .second-btn {
 		width: 100%;
 	}
-	.proceed-btn {
+	.proceed-btn,
+	.contact-submit {
 		display: block;
 		width: 100%;
 	}
