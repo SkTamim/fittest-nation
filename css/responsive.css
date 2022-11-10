@@ -66,3 +66,32 @@
 		display: none;
 	}
 }
+
+@media screen and (max-width:390px) {
+	.product-card .review-info{
+		font-size: 12px;
+    bottom: 5px;
+    left: 5px;
+	}
+	.product-card .card-body{
+		padding: 5px;
+	}
+	.product-card .card-body p,.card-body .text-14{
+	font-size: 12px;
+	}
+	.product-card .card-body .main-price{
+	font-size: 14px;
+	}
+	.product-card .card-body p.text-muted{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2; /* number of lines to show */
+				line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}
+	.product-card .product-btn-group .add-cart-btn{
+		font-size: 14px;
+		border-radius: 50px;
+	}
+}
