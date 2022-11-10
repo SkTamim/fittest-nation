@@ -94,4 +94,17 @@
 		font-size: 14px;
 		border-radius: 50px;
 	}
+	.product-card .card-title{
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	.count-group #product-plus{
+		border-top-right-radius: 50px;
+		border-bottom-right-radius: 50px;
+	}
+	.count-group #product-minus{
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+	}
 }
