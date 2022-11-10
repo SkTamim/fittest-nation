@@ -269,7 +269,7 @@
                             <input type="password" class="form-control" id="password">
                         </div>
                         <div class="text-end">
-                            <a href="#" class="color-main fw-bold text-decoration-underline">Forgot Password?</a>
+                            <a href="#" class="color-main fw-bold text-decoration-underline" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#forgotPasswordModal">Forgot Password?</a>
                         </div>
                         <button class="btn second-btn w-100 text-center mt-3">Login Now</button>
                     </form>
@@ -287,6 +287,29 @@
         </div>
     </div>
     <!-- Login Modal End -->
+
+    <!-- Forgot Password Modal Start -->
+    <div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h4 class="modal-title fw-bold">Forgot Password?</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <button class="btn second-btn w-100 text-center mt-3">Send</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Forgot Password Modal End -->
 
     <!-- Register Modal Start -->
     <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">

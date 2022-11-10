@@ -2219,3 +2219,59 @@ try {
 } catch (error) {
 	console.log(error);
 }
+
+
+// CATEGORY RADIO
+try {
+	const categoryItem = document.querySelectorAll('.category-item');
+
+	categoryItem.forEach(item =>{
+		item.addEventListener('click',()=>{
+			categoryItem.forEach(el => el.classList.remove('active'))
+			if(!item.classList[1]){
+				item.classList.add('active');
+				item.querySelector('input')
+				console.log(item.querySelector('input').checked = true);
+			}
+		})
+	})
+
+	
+} catch (error) {
+	console.log(error);
+}
+
+// ADD CART FUNCTIONALITY
+try {
+	const addCartBtn = document.querySelectorAll('.add-cart-btn');
+	const countGroup = document.querySelectorAll('.count-group');
+
+	addCartBtn.forEach(item =>{
+		item.addEventListener('click',()=>{
+			item.style.display = 'none';
+			item.nextElementSibling.style.display = 'flex'
+		})
+	})
+
+	countGroup.forEach(element => {
+		let minus = element.querySelector('#product-minus')
+		let plus = element.querySelector('#product-plus')
+		let input = element.querySelector('input');
+		
+		minus.addEventListener('click',()=>{
+			if(+input.value >= 2){
+				input.value = +input.value - 1;
+			}else{
+				countGroup[0].style.display = 'none';
+				countGroup[0].previousElementSibling.style.display = 'block';
+			}
+		})
+		
+		plus.addEventListener('click',()=>{
+				input.value = +input.value + 1;
+		})
+	})
+
+} catch (error) {
+	console.log(error);
+}
